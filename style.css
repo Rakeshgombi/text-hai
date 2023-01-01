@@ -1,0 +1,15 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.chat-body::-webkit-scrollbar {
+  width: 5px;
+  background: #2d3038;
+}
+
+.chat-body::-webkit-scrollbar-thumb {
+  width: 4px;
+  background: #eeeeee34;
+  cursor: pointer;
+}

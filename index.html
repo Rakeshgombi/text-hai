@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <title>Text-H'AI'</title>
+
+</head>
+
+<body class="">
+
+
+  <div class="app bg-[#21242B] h-screen w-screen p-10  text-white ">
+    <div
+      class="h-full relative text-slate-300 overflow-hidden rounded-lg shadow-[_0_0px_100px_12px_rgba(255,255,255,0.2)]">
+      <div class="chat-header p-2 bg-slate-700/50 flex items-center">
+        <div class="flex">
+          <div class="profile-img w-10 rounded-full border border-2 border-gray-500 mr-3"><img src="./assets/pngegg.png"
+              alt=""></div>
+          <div class="name flex items-center">BOT</div>
+        </div>
+      </div>
+      <div class="chat_container chat-body h-full overflow-auto pb-24" id="chat_container"></div>
+
+      <div class="chat-footer absolute w-full z-20 bottom-0 left-0">
+        <form class="flex w-full P-3">
+          <textarea rows="1"
+            class="block p-2.5 w-full text-gray-900 bg-white rounded-l-lg border border-gray-300 dark:bg-gray-800 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white resize-none outline-none"
+            name="prompt" placeholder="Your message..."></textarea>
+          <button type="submit"
+            class="inline-flex justify-center p-2 px-5 rounded-r-lg cursor-pointer bg-blue-500 text-white ">
+            <svg aria-hidden="true" class="w-6 h-6 rotate-90" fill="currentColor" viewBox="0 0 20 20"
+              xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M10.894 2.553a1 1 0 00-1.788 0l-7 14a1 1 0 001.169 1.409l5-1.429A1 1 0 009 15.571V11a1 1 0 112 0v4.571a1 1 0 00.725.962l5 1.428a1 1 0 001.17-1.408l-7-14z">
+              </path>
+            </svg>
+            <span class="sr-only">Send message</span>
+          </button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+
+
+  <script type="module" src="script.js"></script>
+</body>
+
+</html>
