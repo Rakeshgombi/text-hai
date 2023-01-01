@@ -1,0 +1,120 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;1,100&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+} */
+/* 
+html {
+  overflow: auto;
+}
+body {
+  background: #0e0e0f;
+  height: 100vh;
+  width: 100vw;
+  padding: 3rem;
+}
+
+.app {
+  position: relative;
+  background: #2e2e2e;
+  max-height: 97%;
+  overflow: auto;
+}
+.app::-webkit-scrollbar {
+  background-color: #363636;
+  width: 5px;
+  cursor: pointer;
+}
+.app::-webkit-scrollbar-thumb {
+  background-color: #777777;
+  width: 4px;
+}
+.app::-webkit-scrollbar-thumb:hover {
+  background-color: #969595;
+}
+
+.chat_container {
+  color: #fff;
+}
+.wrapper {
+  width: 100%;
+}
+.chat {
+  display: flex;
+  width: 65%;
+  backdrop-filter: blur(16px) saturate(180%);
+  -webkit-backdrop-filter: blur(16px) saturate(180%);
+  background-color: rgba(17, 25, 40, 0.75);
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.125);
+  padding: 0.5rem;
+  margin: 4px;
+  font-size: 1.2rem;
+  word-break: break-all;
+}
+.message,
+.profile {
+  display: flex;
+  align-items: center;
+}
+.material-symbols-rounded {
+  font-variation-settings: "FILL" 0, "wght" 500, "GRAD" 200, "opsz" 48;
+}
+.message {
+  padding: 0 5px;
+  width: 100%;
+}
+.personBubble {
+  display: flex;
+  justify-content: end;
+}
+form {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: fit-content;
+  display: inline-flex;
+  align-items: center;
+  padding: 2rem 3rem;
+}
+textarea {
+  overflow-x: auto;
+  background: #21242b;
+  border: none;
+  outline: none;
+  color: #ccc;
+  resize: none;
+  display: flex;
+  padding: 0.8rem;
+  font-size: 1.1rem;
+  border-top-left-radius: 0.5rem;
+  border-bottom-left-radius: 0.5rem;
+  width: 100%;
+  height: 3rem;
+}
+textarea::-webkit-scrollbar {
+  display: none;
+}
+form > button > div {
+  background: rgb(3, 163, 70);
+  border: none;
+  outline: none;
+  display: flex;
+  width: max-content;
+  padding: 1rem;
+  color: antiquewhite;
+}
+form > button {
+  height: 3rem;
+  border: none;
+  outline: none;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  cursor: pointer;
+  border-top-right-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+} */
